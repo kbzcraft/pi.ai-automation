@@ -1,7 +1,5 @@
 # pi.ai_automation
 
-create a .auth dir and pi.json file fill id and pass and ready to go
-
 To set up project
 
 In Linux:
@@ -21,9 +19,11 @@ pip install playwright
 ```bash
 playwright install
 ```
+Create a dir called .auth #not a rule but thats how i did it
 ```bash
 mkdir .auth
 ```
+Create a Json file to store login state to re-use later
 ```bash
 touch .auth/pi.json
 ```

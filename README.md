@@ -28,3 +28,4 @@ Create a Json file to store login state to re-use later
 touch .auth/pi.json
 ```
 
+Also don't forget to fill your correct Facebook idp in piAiLogin.py file
